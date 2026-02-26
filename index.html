@@ -1,11 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Profile Site</title>
-</head>
-<body>
-    <h1>Hello from my GitHub Pages site!</h1>
-    <p>This is the home page of the <strong>profile</strong> repository.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jane Doe – Software Engineer</title>
+
+    <!-- Link to your stylesheet (adjust the path if you move the file) -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- Optional: favicons, meta tags for SEO -->
+    <meta
+      name="description"
+      content="Portfolio of Jane Doe – Java developer, open‑source contributor, and tech writer."
+    />
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <nav>
+      <ul class="nav-list">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About / Skills</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/resume.html">Resume</a></li>
+      </ul>
+    </nav>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+      <section class="hero">
+        <img
+          src="/assets/img/DontEverGiveUp_color.jpg"
+          alt="Jane Doe"
+          class="profile-photo"
+          title="Don't ever never give up!"
+        />
+
+        <h1>Hello! I’m Jane Doe</h1>
+        <p>
+          Java developer with 4 years of experience building scalable backend
+          services, cloud‑native micro‑services, and open‑source libraries.
+        </p>
+
+        <!-- Quick‑link buttons (optional) -->
+        <div class="cta-buttons">
+          <a href="/projects.html" class="btn primary">View Projects</a>
+          <a href="/resume.html" class="btn secondary">Download Resume</a>
+        </div>
+      </section>
+
+      <!-- Optional short “Featured Skills” row -->
+      <section class="skills">
+        <h2>Core Skills</h2>
+        <ul class="skill-list">
+          <li>Java 17, Spring Boot, Micronaut</li>
+          <li>Docker • Kubernetes • Helm</li>
+          <li>CI/CD – GitHub Actions, Jenkins</li>
+          <li>SQL (PostgreSQL, MySQL, Oracle) • NoSQL (MongoDB)</li>
+          <li>Test‑driven Development – JUnit, Mockito</li>
+        </ul>
+      </section>
+
+      <!-- ***** INSERT THE TIMELINE HERE ***** -->
+      <section class="timeline">
+        <h2>Career Timeline</h2>
+
+        <ul class="timeline-list">
+          <!-- Pre‑gap job -->
+          <li class="timeline-item">
+            <span class="date">Jan 2022 – Oct 2023</span>
+            <h3>Software Engineer – Acme Corp</h3>
+            <p>
+              • Developed micro‑services in Java 17 & Spring Boot.<br />
+              • Designed CI/CD pipelines with GitHub Actions
+              (30 + deployments/month).<br />
+              • Mentored 3 junior developers.
+            </p>
+          </li>
+
+          <!-- The 2‑year gap -->
+          <li class="timeline-item gap">
+            <span class="date">Nov 2023 – Oct 2025</span>
+            <h3>Career Sabbatical (2 years)</h3>
+            <p>
+              • Completed Oracle Certified Professional, Java SE 17.<br />
+              • Contributed to Apache Commons (5 PRs merged).<br />
+              • Built “TaskPulse” – a Pomodoro Chrome extension
+              (10 k+ downloads).<br />
+              • Volunteered as lead developer for a non‑profit event‑matching
+              platform (40 % user‑growth).<br />
+              • Attended 4 tech meet‑ups and gave 2 talks on reactive
+              programming.
+            </p>
+          </li>
+
+          <!-- Post‑gap job -->
+          <li class="timeline-item">
+            <span class="date">Nov 2025 – Present</span>
+            <h3>Senior Backend Engineer – BetaTech Ltd.</h3>
+            <p>
+              • Architecting cloud‑native services on AWS (EKS, DynamoDB).<br />
+              • Driving adoption of TDD & contract testing across the team.<br />
+              • Leading a migration from monolith to micro‑services (saved ~30 %
+              infra cost).
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+      <p>
+        © 2026 Jane Doe –
+        <a href="mailto:jane.doe@example.com">jane.doe@example.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/janedoe" target="_blank" rel="noopener"
+          >GitHub</a
+        >
+        |
+        <a href="https://linkedin.com/in/janedoe" target="_blank" rel="noopener"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+
+    <!-- Link to your JavaScript file (optional) -->
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>
+
